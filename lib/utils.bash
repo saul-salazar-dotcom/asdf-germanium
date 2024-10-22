@@ -72,8 +72,8 @@ install_version() {
 
 get_machine_os() {
 	case "${OSTYPE}" in
-	darwin*) echo "Darwin" ;;
-	linux*) echo "Linux" ;;
+	darwin*) echo "darwin" ;;
+	linux*) echo "linux" ;;
 	*)
 		# dump error to stderr
 		echo "asdf-$TOOL_NAME: $OSTYPE is not supported" >&2
