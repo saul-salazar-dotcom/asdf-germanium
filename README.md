@@ -1,14 +1,14 @@
 <div align="center">
 
-# asdf-puffin [![Build](https://github.com/saul-salazar-dotcom/asdf-puffin/actions/workflows/build.yml/badge.svg)](https://github.com/saul-salazar-dotcom/asdf-puffin/actions/workflows/build.yml) [![Lint](https://github.com/saul-salazar-dotcom/asdf-puffin/actions/workflows/lint.yml/badge.svg)](https://github.com/saul-salazar-dotcom/asdf-puffin/actions/workflows/lint.yml)
+# asdf-germanium [![Build](https://github.com/saul-salazar-dotcom/asdf-germanium/actions/workflows/build.yml/badge.svg)](https://github.com/saul-salazar-dotcom/asdf-germanium/actions/workflows/build.yml) [![Lint](https://github.com/saul-salazar-dotcom/asdf-germanium/actions/workflows/lint.yml/badge.svg)](https://github.com/saul-salazar-dotcom/asdf-germanium/actions/workflows/lint.yml)
 
-[puffin](https://github.com/siddhantac/puffin) plugin for the [asdf version manager](https://asdf-vm.com).
+[germanium](https://github.com/siddhantac/germanium) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
 # Contents
 
-- [asdf-puffin](#asdf-puffin--)
+- [asdf-germanium](#asdf-germanium--)
 - [Contents](#contents)
 - [Dependencies](#dependencies)
 - [Install](#install)
@@ -24,25 +24,25 @@
 Plugin:
 
 ```shell
-asdf plugin add puffin
+asdf plugin add germanium
 # or
-asdf plugin add puffin https://github.com/saul-salazar-dotcom/asdf-puffin.git
+asdf plugin add germanium https://github.com/saul-salazar-dotcom/asdf-germanium.git
 ```
 
-puffin:
+germanium:
 
 ```shell
 # Show all installable versions
-asdf list-all puffin
+asdf list-all germanium
 
 # Install specific version
-asdf install puffin latest
+asdf install germanium latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global puffin latest
+asdf global germanium latest
 
-# Now puffin commands are available
-puffin
+# Now germanium commands are available
+germanium
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -52,7 +52,7 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/saul-salazar-dotcom/asdf-puffin/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/saul-salazar-dotcom/asdf-germanium/graphs/contributors)!
 
 # License
 

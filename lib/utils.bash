@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-GH_REPO="https://github.com/siddhantac/puffin"
-TOOL_NAME="puffin"
-TOOL_TEST="puffin --version"
+GH_REPO="https://github.com/matsuyoshi30/germanium"
+TOOL_NAME="germanium"
+TOOL_TEST="germanium --version"
 
 fail() {
 	echo -e "asdf-$TOOL_NAME: $*"
@@ -13,7 +13,7 @@ fail() {
 
 curl_opts=(-fsSL)
 
-# NOTE: You might want to remove this if puffin is not hosted on GitHub releases.
+# NOTE: You might want to remove this if germanium is not hosted on GitHub releases.
 if [ -n "${GITHUB_API_TOKEN:-}" ]; then
 	curl_opts=("${curl_opts[@]}" -H "Authorization: token $GITHUB_API_TOKEN")
 fi
