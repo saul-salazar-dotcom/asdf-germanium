@@ -40,7 +40,7 @@ download_release() {
 	processor=$(get_machine_processor)
 	os=$(get_machine_os)
 
-	url="$GH_REPO/releases/download/${version}/${TOOL_NAME}_${os}_${processor}"
+	url="$GH_REPO/releases/download/${version}/${TOOL_NAME}_${version:1}_${os}_${processor}"
 
 	echo "* Downloading $TOOL_NAME release $version..."
 	curl "${curl_opts[@]}" -o "$filename.tar.gz" -C - "$url.tar.gz" || curl "${curl_opts[@]}" -o "$filename.zip" -C - "$url.zip" || fail "Could not download $url"
